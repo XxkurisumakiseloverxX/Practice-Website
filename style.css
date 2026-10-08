@@ -1,68 +1,58 @@
-@keyframes spin{
-    from {
-        rotate: 0deg;
-    }
-    to {
-        rotate: 360deg;
-    }
-}
-
 body {
-    background-color: aqua;
-    color: chartreuse;
-    font-family: "Comic Sans MS", cursive;
+    background-color: black;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    border: darkred 10px dashed;
+    border: rgba(166, 166, 166, 1) 1px solid;
 }
 * {
     margin: 10px;
     padding: 10px;
-    border: darkred 10px dashed;
+    border: rgba(166, 166, 166, 1) 1px solid;
 }
-#tubby {
-    animation: spin 180s linear infinite;
+#amer {
     border-radius: 50%;
     margin: 5vh;
     padding: 1vw;
-    border: 60px solid mediumpurple;
+    border: 60px solid greenyellow;
 }
 a[href*="frhsd.com"] {
-    color: yellow;
+    color: greenyellow;
 }
 
 li:hover {
-    color: chocolate;
+    color: black;
     padding: 40px;
-    background-color: pink;
-    border: 10px solid darkmagenta;
+    background-color: greenyellow;
+    border: 5px solid green;
 }
 
 div {
-    background-color: crimson;
+    background-color: darkgray;
     li {
         list-style: none;
     }
 }
 ol > li {
-    color: indianred;
+    color: green;
 }
 
 li + li {
-    border: 3px dotted darkmagenta;
+    border: 1px solid green;
 }
 p~div > p {
-    color: chocolate;
-    border: 2px solid navajowhite;
-    font-family: "Arabic Typesetting", cursive;
+    color: green;
+    border: 1px solid rgba(166, 166, 166, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p+div {
-    color: darkmagenta;
-    border: 10px dashed aquamarine;
-    font-family: "Blackadder ITC", cursive;
+    color: green;
+    border: 1px solid greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #meow {
-    background-color: aquamarine;
+    background-color: darkgray;
 }
 #pod {
     display: flex;
@@ -70,7 +60,7 @@ p+div {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    color: gold;
+    color: black;
 }
 
 #container {
